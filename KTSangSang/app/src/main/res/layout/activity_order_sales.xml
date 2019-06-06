@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/gray_2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:background="@color/gray_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            layout="@layout/toolbar"/>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fltAction"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="bottom|right"
+        android:visibility="visible"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:fabSize="normal"
+        app:useCompatPadding="false"
+        app:backgroundTint="@color/blue"
+        android:src="@drawable/ic_add_black_24dp" />
+</FrameLayout>

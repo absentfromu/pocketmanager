@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/screenshot_1"
+        android:text="screenshot_1"
+        android:onClick="screenshot_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/screenshot_2"
+        android:text="screenshot_2"
+        android:onClick="screenshot_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/screenshot_3"
+        android:text="screenshot_3"
+        android:onClick="screenshot_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/screenshot_4"
+        android:text="screenshot_4"
+        android:onClick="screenshot_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/screenshot_5"
+        android:text="screenshot_5"
+        android:onClick="screenshot_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/screenshot_6"
+        android:text="screenshot_6"
+        android:onClick="screenshot_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/screenshot_7"
+        android:text="screenshot_7"
+        android:onClick="screenshot_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
